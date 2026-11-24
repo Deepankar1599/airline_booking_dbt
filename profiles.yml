@@ -1,7 +1,7 @@
 airline_booking_project:
   outputs:
     dev:
-      catalog: airflow_project
+      catalog: dbt_project_catalog
       host: "dbc-0de9192d-83be.cloud.databricks.com"
       http_path: "/sql/1.0/warehouses/14840cf39f14531c"
       schema: default
