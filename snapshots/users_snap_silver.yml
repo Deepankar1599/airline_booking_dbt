@@ -1,0 +1,10 @@
+snapshots:
+  - name: users_snap_silver
+    relation: ref('users_silver')
+    config: 
+      schema: silver
+      database: dbt_project_catalog
+      unique_key: id
+      strategy: timestamp
+      updated_at: updated_at
+      dbt_valid_to_current: "to_date('9999-12-31')"
