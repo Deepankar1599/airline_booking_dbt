@@ -5,4 +5,4 @@
 select 
 *
 from 
-    {{ source ('source', 'airports') }}
+    {{ source ('source', 'bronze_users') }}

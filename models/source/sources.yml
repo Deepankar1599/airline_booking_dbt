@@ -2,11 +2,11 @@ version: 2
 
 sources:
   - name: source
-    database: airflow_project  
+    database: dbt_project_catalog
     schema: bronze  
     tables:
-      - name: bookings
-      - name: passengers
-      - name: airports
+      - name: bronze_orders
+      - name: bronze_reviews
+      - name: bronze_users
 
 
